@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="popup.css" rel="stylesheet">
+</head>
+
+<body class="px-6 py-8">
+    <header class="mb-4 p-4 shadow bg-white">
+        <h1 class="text-xl font-bold mb-4">Storage Manager</h1>
+        <input type="text" id="searchInput" placeholder="Search..." class="mb-4 p-2 border rounded w-full text-xs">
+        <div id="totalSize" class="mb-4"></div>
+    </header>
+    <main>
+        <section class="mb-4">
+            <h2 class="text-lg font-bold mb-4">LocalStorage</h2>
+            <ul id="localStorageList" class="flex flex-col gap-2 text-sm"></ul>
+        </section>
+        <section class="mb-4">
+            <h2 class="text-lg font-bold mb-4">SessionStorage</h2>
+            <ul id="sessionStorageList" class="flex flex-col gap-2 text-sm"></ul>
+        </section>
+    </main>
+
+    <!-- Modal for JSON Preview -->
+    <div id="previewModal" class="modal flex">
+        <div class="modal-content">
+            <button id="closePreview" class="close-button">Close</button>
+            <div id="preview" class="mt-4"></div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

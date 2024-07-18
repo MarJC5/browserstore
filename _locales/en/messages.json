@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "Browserstore"
+    },
+    "appDescription": {
+        "message": "Manage localStorage items with size and creation date."
+    }
+}
