@@ -20,7 +20,7 @@ A Firefox browser extension to manage LocalStorage and SessionStorage items, dis
 2. Navigate to the extension directory:
 
     ```bash
-    cd browser-storage-manager
+    cd browserstore
     ```
 
 3. Load the extension in Firefox:
