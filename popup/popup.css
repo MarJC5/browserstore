@@ -45,11 +45,15 @@ main {
 
 .modal-content {
     background: white;
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 90%;
-    max-height: 90%;
+    width: 100vh;
+    max-width: 100vh;
+    height: 100vh;
+    max-height: 100vh;
     overflow-y: auto;
+}
+
+#preview {
+    padding: 20px;
 }
 
 .json {
@@ -104,7 +108,7 @@ main {
 }
 
 .json__key {
-    color: darkblue;
+    color: rgb(8 47 73);
     display: inline;
 }
 
@@ -117,13 +121,13 @@ main {
 }
 
 .json__value--string {
-    color: green;
+    color:  rgb(34 197 94);
 }
 
 .json__value--number {
-    color: blue;
+    color: rgb(59 130 246);
 }
 
 .json__value--boolean {
-    color: red;
+    color: rgb(239 68 68);
 }

@@ -3,6 +3,6 @@
         "message": "Browserstore"
     },
     "appDescription": {
-        "message": "Manage localStorage items with size and creation date."
+        "message": "Manage localStorage & sessionStorage items with size and creation date."
     }
 }

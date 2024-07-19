@@ -11,9 +11,9 @@ function getStorageDetails(storage) {
             key: key,
             size: (size / 1024).toFixed(2) + " KB",
             creationDate: new Date().toLocaleString(),
+            content: storage[key]
         });
     }
-
     return { details, totalSize: (totalSize / 1024).toFixed(2) + " KB" };
 }
 
