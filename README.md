@@ -2,6 +2,8 @@
 
 A Firefox browser extension to manage LocalStorage and SessionStorage items, display their details, and allow for item deletion and JSON content preview.
 
+![Browser Storage Manager](./assets/images/screenshot.png)
+
 ## Features
 
 - Display all LocalStorage and SessionStorage items with their sizes, creation dates, and content.
